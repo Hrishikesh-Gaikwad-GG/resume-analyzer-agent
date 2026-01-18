@@ -12,8 +12,8 @@ prompt = PromptTemplate(
     template="""
     Given the candidate skills and job description,
     identify:
-    1. matched_skills
-    2. missing_skills
+    1. matched_skills (skills that matches with the job requirements)
+    2. missing_skills (required skills in the jd that the candidate doesn't have)
 
     Skills: {skills}
     Job Description: {job_description}
